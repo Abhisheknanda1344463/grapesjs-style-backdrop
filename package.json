@@ -1,8 +1,8 @@
 {
-  "name": "grapesjs-style-filter",
-  "version": "0.1.3",
+  "name": "grapesjs-style-backdrop-filter",
+  "version": "0.1.4",
   "description": "GrapesJS Style Filter",
-  "main": "dist/grapesjs-style-filter.min.js",
+  "main": "dist/grapesjs-style-backdrop-filter.min.js",
   "scripts": {
     "patch": "npm version patch -m 'Bump v%s'",
     "start": "grapesjs-cli serve",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/artf/grapesjs-style-filter.git"
+    "url": "https://github.com/artf/grapesjs-style-backdrop-filter.git"
   },
   "keywords": [
     "grapesjs",

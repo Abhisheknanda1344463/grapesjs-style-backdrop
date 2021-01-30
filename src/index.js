@@ -17,7 +17,7 @@ export default (editor, opts = {}) => {
   const stack = sm.getType('stack');
   const propModel = stack.model;
   const filterType = {
-    property: 'filter_type',
+    property: 'backdrop_filter_type',
     name: 'Type',
     type: 'select',
     defaults: 'sepia',
@@ -36,7 +36,7 @@ export default (editor, opts = {}) => {
     ...options.inputFilterType,
   };
   const filterStrength = {
-    property: 'filter_strength',
+    property: 'backdrop-filter_strength',
     type: 'slider',
     name: 'Strength',
     functionName: 'blur',
@@ -48,7 +48,7 @@ export default (editor, opts = {}) => {
     ...options.inputFilterStrength,
   };
 
-  sm.addType('filter', {
+  sm.addType('backdrop-filter', {
     model: propModel.extend({
       defaults: () => ({
         ...propModel.prototype.defaults,

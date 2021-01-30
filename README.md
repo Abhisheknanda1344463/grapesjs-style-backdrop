@@ -15,7 +15,7 @@ Add `filter` type input to the Style Manager in GrapesJS
 
 ## Summary
 
-* Plugin name: `grapesjs-style-filter`
+* Plugin name: `grapesjs-style-backdrop-filter`
 * StyleManager types
   * `filter`
 
@@ -38,11 +38,11 @@ Add `filter` type input to the Style Manager in GrapesJS
 ## Download
 
 * CDN
-  * `https://unpkg.com/grapesjs-style-filter`
+  * `https://unpkg.com/grapesjs-style-backdrop-filter`
 * NPM
-  * `npm i grapesjs-style-filter`
+  * `npm i grapesjs-style-backdrop-filter`
 * GIT
-  * `git clone https://github.com/artf/grapesjs-style-filter.git`
+  * `git clone https://github.com/artf/grapesjs-style-backdrop-filter.git`
 
 
 
@@ -54,7 +54,7 @@ Directly in the browser
 ```html
 <link href="https://unpkg.com/grapesjs/dist/css/grapes.min.css" rel="stylesheet"/>
 <script src="https://unpkg.com/grapesjs"></script>
-<script src="path/to/grapesjs-style-filter.min.js"></script>
+<script src="path/to/grapesjs-style-backdrop-filter.min.js"></script>
 
 <div id="gjs"></div>
 
@@ -69,9 +69,9 @@ Directly in the browser
   var editor = grapesjs.init({
       container : '#gjs',
       // ...
-      plugins: ['grapesjs-style-filter'],
+      plugins: ['grapesjs-style-backdrop-filter'],
       pluginsOpts: {
-        'grapesjs-style-filter': { /* options */ }
+        'grapesjs-style-backdrop-filter': { /* options */ }
       },
       // Use the type on init
       styleManager: {
@@ -94,7 +94,7 @@ Directly in the browser
 Modern javascript
 ```js
 import grapesjs from 'grapesjs';
-import styleFilter from 'grapesjs-style-filter';
+import styleFilter from 'grapesjs-style-backdrop-filter';
 
 const editor = grapesjs.init({
   container : '#gjs',
@@ -120,8 +120,8 @@ const editor = grapesjs.init({
 Clone the repository
 
 ```sh
-$ git clone https://github.com/artf/grapesjs-style-filter.git
-$ cd grapesjs-style-filter
+$ git clone https://github.com/artf/grapesjs-style-backdrop-filter.git
+$ cd grapesjs-style-backdrop-filter
 ```
 
 Install dependencies
